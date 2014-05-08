@@ -1,0 +1,644 @@
+<DProject>
+ <ProjectGuid>{0BAF56F4-5E5F-4D14-A68F-2278068C7022}</ProjectGuid>
+ <Config name="Debug" platform="Win32">
+  <obj>0</obj>
+  <link>0</link>
+  <lib>1</lib>
+  <subsystem>0</subsystem>
+  <multiobj>0</multiobj>
+  <singleFileCompilation>0</singleFileCompilation>
+  <oneobj>0</oneobj>
+  <trace>0</trace>
+  <quiet>0</quiet>
+  <verbose>0</verbose>
+  <vtls>0</vtls>
+  <symdebug>1</symdebug>
+  <optimize>0</optimize>
+  <cpu>0</cpu>
+  <isX86_64>0</isX86_64>
+  <isLinux>0</isLinux>
+  <isOSX>0</isOSX>
+  <isWindows>0</isWindows>
+  <isFreeBSD>0</isFreeBSD>
+  <isSolaris>0</isSolaris>
+  <scheduler>0</scheduler>
+  <useDeprecated>0</useDeprecated>
+  <errDeprecated>0</errDeprecated>
+  <useAssert>0</useAssert>
+  <useInvariants>0</useInvariants>
+  <useIn>0</useIn>
+  <useOut>0</useOut>
+  <useArrayBounds>0</useArrayBounds>
+  <noboundscheck>0</noboundscheck>
+  <useSwitchError>0</useSwitchError>
+  <useUnitTests>0</useUnitTests>
+  <useInline>0</useInline>
+  <release>0</release>
+  <preservePaths>0</preservePaths>
+  <warnings>1</warnings>
+  <infowarnings>0</infowarnings>
+  <checkProperty>0</checkProperty>
+  <genStackFrame>0</genStackFrame>
+  <pic>0</pic>
+  <cov>0</cov>
+  <nofloat>0</nofloat>
+  <Dversion>2</Dversion>
+  <ignoreUnsupportedPragmas>0</ignoreUnsupportedPragmas>
+  <compiler>0</compiler>
+  <otherDMD>0</otherDMD>
+  <program>$(DMDInstallDir)windows\bin\dmd.exe</program>
+  <imppath>src;import</imppath>
+  <fileImppath />
+  <outdir>lib</outdir>
+  <objdir>$(Configuration)</objdir>
+  <objname />
+  <libname />
+  <doDocComments>0</doDocComments>
+  <docdir />
+  <docname />
+  <modules_ddoc />
+  <ddocfiles />
+  <doHdrGeneration>0</doHdrGeneration>
+  <hdrdir />
+  <hdrname />
+  <doXGeneration>1</doXGeneration>
+  <xfilename>$(ProjectDir)\druntime.json</xfilename>
+  <debuglevel>0</debuglevel>
+  <debugids />
+  <versionlevel>0</versionlevel>
+  <versionids />
+  <dump_source>0</dump_source>
+  <mapverbosity>0</mapverbosity>
+  <createImplib>0</createImplib>
+  <defaultlibname />
+  <debuglibname />
+  <moduleDepsFile />
+  <run>0</run>
+  <runargs />
+  <runCv2pdb>1</runCv2pdb>
+  <pathCv2pdb>$(VisualDInstallDir)cv2pdb\cv2pdb.exe</pathCv2pdb>
+  <cv2pdbPre2043>0</cv2pdbPre2043>
+  <cv2pdbNoDemangle>0</cv2pdbNoDemangle>
+  <cv2pdbEnumType>0</cv2pdbEnumType>
+  <cv2pdbOptions />
+  <objfiles />
+  <linkswitches />
+  <libfiles />
+  <libpaths />
+  <deffile />
+  <resfile />
+  <exefile>$(OutDir)\druntime.lib</exefile>
+  <useStdLibPath>1</useStdLibPath>
+  <cRuntime>2</cRuntime>
+  <additionalOptions />
+  <preBuildCommand />
+  <postBuildCommand />
+  <filesToClean>*.obj;*.cmd;*.build;*.json;*.dep</filesToClean>
+ </Config>
+ <Config name="Release" platform="Win32">
+  <obj>0</obj>
+  <link>0</link>
+  <lib>1</lib>
+  <subsystem>0</subsystem>
+  <multiobj>0</multiobj>
+  <singleFileCompilation>0</singleFileCompilation>
+  <oneobj>0</oneobj>
+  <trace>0</trace>
+  <quiet>0</quiet>
+  <verbose>0</verbose>
+  <vtls>0</vtls>
+  <symdebug>0</symdebug>
+  <optimize>1</optimize>
+  <cpu>0</cpu>
+  <isX86_64>0</isX86_64>
+  <isLinux>0</isLinux>
+  <isOSX>0</isOSX>
+  <isWindows>0</isWindows>
+  <isFreeBSD>0</isFreeBSD>
+  <isSolaris>0</isSolaris>
+  <scheduler>0</scheduler>
+  <useDeprecated>0</useDeprecated>
+  <errDeprecated>0</errDeprecated>
+  <useAssert>0</useAssert>
+  <useInvariants>0</useInvariants>
+  <useIn>0</useIn>
+  <useOut>0</useOut>
+  <useArrayBounds>0</useArrayBounds>
+  <noboundscheck>0</noboundscheck>
+  <useSwitchError>0</useSwitchError>
+  <useUnitTests>0</useUnitTests>
+  <useInline>1</useInline>
+  <release>1</release>
+  <preservePaths>0</preservePaths>
+  <warnings>1</warnings>
+  <infowarnings>0</infowarnings>
+  <checkProperty>0</checkProperty>
+  <genStackFrame>0</genStackFrame>
+  <pic>0</pic>
+  <cov>0</cov>
+  <nofloat>0</nofloat>
+  <Dversion>2</Dversion>
+  <ignoreUnsupportedPragmas>0</ignoreUnsupportedPragmas>
+  <compiler>0</compiler>
+  <otherDMD>0</otherDMD>
+  <program>$(DMDInstallDir)windows\bin\dmd.exe</program>
+  <imppath>src;import</imppath>
+  <fileImppath />
+  <outdir>lib</outdir>
+  <objdir>$(Configuration)</objdir>
+  <objname />
+  <libname />
+  <doDocComments>0</doDocComments>
+  <docdir />
+  <docname />
+  <modules_ddoc />
+  <ddocfiles />
+  <doHdrGeneration>0</doHdrGeneration>
+  <hdrdir />
+  <hdrname />
+  <doXGeneration>1</doXGeneration>
+  <xfilename>$(ProjectDir)\druntime.json</xfilename>
+  <debuglevel>0</debuglevel>
+  <debugids />
+  <versionlevel>0</versionlevel>
+  <versionids />
+  <dump_source>0</dump_source>
+  <mapverbosity>0</mapverbosity>
+  <createImplib>0</createImplib>
+  <defaultlibname />
+  <debuglibname />
+  <moduleDepsFile />
+  <run>0</run>
+  <runargs />
+  <runCv2pdb>0</runCv2pdb>
+  <pathCv2pdb>$(VisualDInstallDir)cv2pdb\cv2pdb.exe</pathCv2pdb>
+  <cv2pdbPre2043>0</cv2pdbPre2043>
+  <cv2pdbNoDemangle>0</cv2pdbNoDemangle>
+  <cv2pdbEnumType>0</cv2pdbEnumType>
+  <cv2pdbOptions />
+  <objfiles />
+  <linkswitches />
+  <libfiles />
+  <libpaths />
+  <deffile />
+  <resfile />
+  <exefile>$(OutDir)\druntime.lib</exefile>
+  <useStdLibPath>1</useStdLibPath>
+  <cRuntime>1</cRuntime>
+  <additionalOptions />
+  <preBuildCommand />
+  <postBuildCommand />
+  <filesToClean>*.obj;*.cmd;*.build;*.json;*.dep</filesToClean>
+ </Config>
+ <Config name="Debug" platform="x64">
+  <obj>0</obj>
+  <link>0</link>
+  <lib>1</lib>
+  <subsystem>0</subsystem>
+  <multiobj>0</multiobj>
+  <singleFileCompilation>0</singleFileCompilation>
+  <oneobj>0</oneobj>
+  <trace>0</trace>
+  <quiet>0</quiet>
+  <verbose>0</verbose>
+  <vtls>0</vtls>
+  <symdebug>1</symdebug>
+  <optimize>0</optimize>
+  <cpu>0</cpu>
+  <isX86_64>1</isX86_64>
+  <isLinux>0</isLinux>
+  <isOSX>0</isOSX>
+  <isWindows>0</isWindows>
+  <isFreeBSD>0</isFreeBSD>
+  <isSolaris>0</isSolaris>
+  <scheduler>0</scheduler>
+  <useDeprecated>0</useDeprecated>
+  <errDeprecated>0</errDeprecated>
+  <useAssert>0</useAssert>
+  <useInvariants>0</useInvariants>
+  <useIn>0</useIn>
+  <useOut>0</useOut>
+  <useArrayBounds>0</useArrayBounds>
+  <noboundscheck>0</noboundscheck>
+  <useSwitchError>0</useSwitchError>
+  <useUnitTests>0</useUnitTests>
+  <useInline>0</useInline>
+  <release>0</release>
+  <preservePaths>0</preservePaths>
+  <warnings>1</warnings>
+  <infowarnings>0</infowarnings>
+  <checkProperty>0</checkProperty>
+  <genStackFrame>0</genStackFrame>
+  <pic>0</pic>
+  <cov>0</cov>
+  <nofloat>0</nofloat>
+  <Dversion>2</Dversion>
+  <ignoreUnsupportedPragmas>0</ignoreUnsupportedPragmas>
+  <compiler>0</compiler>
+  <otherDMD>0</otherDMD>
+  <program>$(DMDInstallDir)windows\bin\dmd.exe</program>
+  <imppath>src;import</imppath>
+  <fileImppath />
+  <outdir>lib</outdir>
+  <objdir>$(Configuration)</objdir>
+  <objname />
+  <libname />
+  <doDocComments>0</doDocComments>
+  <docdir />
+  <docname />
+  <modules_ddoc />
+  <ddocfiles />
+  <doHdrGeneration>0</doHdrGeneration>
+  <hdrdir />
+  <hdrname />
+  <doXGeneration>1</doXGeneration>
+  <xfilename>$(ProjectDir)\druntime.json</xfilename>
+  <debuglevel>0</debuglevel>
+  <debugids />
+  <versionlevel>0</versionlevel>
+  <versionids />
+  <dump_source>0</dump_source>
+  <mapverbosity>0</mapverbosity>
+  <createImplib>0</createImplib>
+  <defaultlibname />
+  <debuglibname />
+  <moduleDepsFile />
+  <run>0</run>
+  <runargs />
+  <runCv2pdb>1</runCv2pdb>
+  <pathCv2pdb>$(VisualDInstallDir)cv2pdb\cv2pdb.exe</pathCv2pdb>
+  <cv2pdbPre2043>0</cv2pdbPre2043>
+  <cv2pdbNoDemangle>0</cv2pdbNoDemangle>
+  <cv2pdbEnumType>0</cv2pdbEnumType>
+  <cv2pdbOptions />
+  <objfiles />
+  <linkswitches />
+  <libfiles />
+  <libpaths />
+  <deffile />
+  <resfile />
+  <exefile>$(OutDir)\druntime64.lib</exefile>
+  <useStdLibPath>1</useStdLibPath>
+  <cRuntime>0</cRuntime>
+  <additionalOptions />
+  <preBuildCommand />
+  <postBuildCommand />
+  <filesToClean>*.obj;*.cmd;*.build;*.json;*.dep</filesToClean>
+ </Config>
+ <Config name="Release" platform="x64">
+  <obj>0</obj>
+  <link>0</link>
+  <lib>1</lib>
+  <subsystem>0</subsystem>
+  <multiobj>0</multiobj>
+  <singleFileCompilation>0</singleFileCompilation>
+  <oneobj>0</oneobj>
+  <trace>0</trace>
+  <quiet>0</quiet>
+  <verbose>0</verbose>
+  <vtls>0</vtls>
+  <symdebug>0</symdebug>
+  <optimize>1</optimize>
+  <cpu>0</cpu>
+  <isX86_64>1</isX86_64>
+  <isLinux>0</isLinux>
+  <isOSX>0</isOSX>
+  <isWindows>0</isWindows>
+  <isFreeBSD>0</isFreeBSD>
+  <isSolaris>0</isSolaris>
+  <scheduler>0</scheduler>
+  <useDeprecated>0</useDeprecated>
+  <errDeprecated>0</errDeprecated>
+  <useAssert>0</useAssert>
+  <useInvariants>0</useInvariants>
+  <useIn>0</useIn>
+  <useOut>0</useOut>
+  <useArrayBounds>0</useArrayBounds>
+  <noboundscheck>0</noboundscheck>
+  <useSwitchError>0</useSwitchError>
+  <useUnitTests>0</useUnitTests>
+  <useInline>1</useInline>
+  <release>1</release>
+  <preservePaths>0</preservePaths>
+  <warnings>1</warnings>
+  <infowarnings>0</infowarnings>
+  <checkProperty>0</checkProperty>
+  <genStackFrame>0</genStackFrame>
+  <pic>0</pic>
+  <cov>0</cov>
+  <nofloat>0</nofloat>
+  <Dversion>2</Dversion>
+  <ignoreUnsupportedPragmas>0</ignoreUnsupportedPragmas>
+  <compiler>0</compiler>
+  <otherDMD>0</otherDMD>
+  <program>$(DMDInstallDir)windows\bin\dmd.exe</program>
+  <imppath>src;import</imppath>
+  <fileImppath />
+  <outdir>lib</outdir>
+  <objdir>$(Configuration)</objdir>
+  <objname />
+  <libname />
+  <doDocComments>0</doDocComments>
+  <docdir />
+  <docname />
+  <modules_ddoc />
+  <ddocfiles />
+  <doHdrGeneration>0</doHdrGeneration>
+  <hdrdir />
+  <hdrname />
+  <doXGeneration>1</doXGeneration>
+  <xfilename>$(ProjectDir)\druntime.json</xfilename>
+  <debuglevel>0</debuglevel>
+  <debugids />
+  <versionlevel>0</versionlevel>
+  <versionids />
+  <dump_source>0</dump_source>
+  <mapverbosity>0</mapverbosity>
+  <createImplib>0</createImplib>
+  <defaultlibname />
+  <debuglibname />
+  <moduleDepsFile />
+  <run>0</run>
+  <runargs />
+  <runCv2pdb>0</runCv2pdb>
+  <pathCv2pdb>$(VisualDInstallDir)cv2pdb\cv2pdb.exe</pathCv2pdb>
+  <cv2pdbPre2043>0</cv2pdbPre2043>
+  <cv2pdbNoDemangle>0</cv2pdbNoDemangle>
+  <cv2pdbEnumType>0</cv2pdbEnumType>
+  <cv2pdbOptions />
+  <objfiles />
+  <linkswitches />
+  <libfiles />
+  <libpaths />
+  <deffile />
+  <resfile />
+  <exefile>$(OutDir)\druntime64.lib</exefile>
+  <useStdLibPath>1</useStdLibPath>
+  <cRuntime>0</cRuntime>
+  <additionalOptions />
+  <preBuildCommand />
+  <postBuildCommand />
+  <filesToClean>*.obj;*.cmd;*.build;*.json;*.dep</filesToClean>
+ </Config>
+ <Folder name="druntime_msc">
+  <Folder name="src">
+   <Folder name="core">
+    <Folder name="internal">
+     <File path="src\core\internal\convert.d" />
+     <File path="src\core\internal\hash.d" />
+     <File path="src\core\internal\traits.d" />
+    </Folder>
+    <Folder name="stdc">
+     <File path="src\core\stdc\complex.d" />
+     <File path="src\core\stdc\config.d" />
+     <File path="src\core\stdc\ctype.d" />
+     <File path="src\core\stdc\errno.c" />
+     <File path="src\core\stdc\errno.d" />
+     <File path="src\core\stdc\fenv.d" />
+     <File path="src\core\stdc\float_.d" />
+     <File path="src\core\stdc\inttypes.d" />
+     <File path="src\core\stdc\limits.d" />
+     <File path="src\core\stdc\locale.d" />
+     <File path="src\core\stdc\math.d" />
+     <File path="src\core\stdc\signal.d" />
+     <File path="src\core\stdc\stdarg.d" />
+     <File path="src\core\stdc\stddef.d" />
+     <File path="src\core\stdc\stdint.d" />
+     <File path="src\core\stdc\stdio.d" />
+     <File path="src\core\stdc\stdlib.d" />
+     <File path="src\core\stdc\string.d" />
+     <File path="src\core\stdc\tgmath.d" />
+     <File path="src\core\stdc\time.d" />
+     <File path="src\core\stdc\wchar_.d" />
+     <File path="src\core\stdc\wctype.d" />
+    </Folder>
+    <Folder name="sync">
+     <File path="src\core\sync\barrier.d" />
+     <File path="src\core\sync\condition.d" />
+     <File path="src\core\sync\config.d" />
+     <File path="src\core\sync\exception.d" />
+     <File path="src\core\sync\mutex.d" />
+     <File path="src\core\sync\rwmutex.d" />
+     <File path="src\core\sync\semaphore.d" />
+    </Folder>
+    <Folder name="sys">
+     <Folder name="freebsd">
+      <Folder name="sys">
+       <File path="src\core\sys\freebsd\sys\elf.d" />
+       <File path="src\core\sys\freebsd\sys\elf32.d" />
+       <File path="src\core\sys\freebsd\sys\elf64.d" />
+       <File path="src\core\sys\freebsd\sys\elf_common.d" />
+       <File path="src\core\sys\freebsd\sys\event.d" />
+       <File path="src\core\sys\freebsd\sys\link_elf.d" />
+      </Folder>
+      <File path="src\core\sys\freebsd\dlfcn.d" />
+      <File path="src\core\sys\freebsd\execinfo.d" />
+     </Folder>
+     <Folder name="linux">
+      <Folder name="sys">
+       <File path="src\core\sys\linux\sys\inotify.d" />
+       <File path="src\core\sys\linux\sys\mman.d" />
+       <File path="src\core\sys\linux\sys\signalfd.d" />
+       <File path="src\core\sys\linux\sys\xattr.d" />
+      </Folder>
+      <File path="src\core\sys\linux\config.d" />
+      <File path="src\core\sys\linux\dlfcn.d" />
+      <File path="src\core\sys\linux\elf.d" />
+      <File path="src\core\sys\linux\epoll.d" />
+      <File path="src\core\sys\linux\errno.d" />
+      <File path="src\core\sys\linux\execinfo.d" />
+      <File path="src\core\sys\linux\link.d" />
+      <File path="src\core\sys\linux\termios.d" />
+     </Folder>
+     <Folder name="osx">
+      <Folder name="mach">
+       <File path="src\core\sys\osx\mach\dyld.d" />
+       <File path="src\core\sys\osx\mach\getsect.d" />
+       <File path="src\core\sys\osx\mach\kern_return.d" />
+       <File path="src\core\sys\osx\mach\loader.d" />
+       <File path="src\core\sys\osx\mach\port.d" />
+       <File path="src\core\sys\osx\mach\semaphore.d" />
+       <File path="src\core\sys\osx\mach\thread_act.d" />
+      </Folder>
+      <File path="src\core\sys\osx\execinfo.d" />
+      <File path="src\core\sys\osx\pthread.d" />
+     </Folder>
+     <Folder name="posix">
+      <Folder name="arpa">
+       <File path="src\core\sys\posix\arpa\inet.d" />
+      </Folder>
+      <Folder name="net">
+       <File path="src\core\sys\posix\net\if_.d" />
+      </Folder>
+      <Folder name="netinet">
+       <File path="src\core\sys\posix\netinet\in_.d" />
+       <File path="src\core\sys\posix\netinet\tcp.d" />
+      </Folder>
+      <Folder name="sys">
+       <File path="src\core\sys\posix\sys\ioctl.d" />
+       <File path="src\core\sys\posix\sys\ipc.d" />
+       <File path="src\core\sys\posix\sys\mman.d" />
+       <File path="src\core\sys\posix\sys\resource.d" />
+       <File path="src\core\sys\posix\sys\select.d" />
+       <File path="src\core\sys\posix\sys\shm.d" />
+       <File path="src\core\sys\posix\sys\socket.d" />
+       <File path="src\core\sys\posix\sys\stat.d" />
+       <File path="src\core\sys\posix\sys\statvfs.d" />
+       <File path="src\core\sys\posix\sys\time.d" />
+       <File path="src\core\sys\posix\sys\types.d" />
+       <File path="src\core\sys\posix\sys\uio.d" />
+       <File path="src\core\sys\posix\sys\un.d" />
+       <File path="src\core\sys\posix\sys\utsname.d" />
+       <File path="src\core\sys\posix\sys\wait.d" />
+      </Folder>
+      <File path="src\core\sys\posix\config.d" />
+      <File path="src\core\sys\posix\dirent.d" />
+      <File path="src\core\sys\posix\dlfcn.d" />
+      <File path="src\core\sys\posix\fcntl.d" />
+      <File path="src\core\sys\posix\grp.d" />
+      <File path="src\core\sys\posix\inttypes.d" />
+      <File path="src\core\sys\posix\netdb.d" />
+      <File path="src\core\sys\posix\poll.d" />
+      <File path="src\core\sys\posix\pthread.d" />
+      <File path="src\core\sys\posix\pwd.d" />
+      <File path="src\core\sys\posix\sched.d" />
+      <File path="src\core\sys\posix\semaphore.d" />
+      <File path="src\core\sys\posix\setjmp.d" />
+      <File path="src\core\sys\posix\signal.d" />
+      <File path="src\core\sys\posix\stdio.d" />
+      <File path="src\core\sys\posix\stdlib.d" />
+      <File path="src\core\sys\posix\syslog.d" />
+      <File path="src\core\sys\posix\termios.d" />
+      <File path="src\core\sys\posix\time.d" />
+      <File path="src\core\sys\posix\ucontext.d" />
+      <File path="src\core\sys\posix\unistd.d" />
+      <File path="src\core\sys\posix\utime.d" />
+     </Folder>
+     <Folder name="windows">
+      <File path="src\core\sys\windows\dbghelp.d" />
+      <File path="src\core\sys\windows\dll.d" />
+      <File path="src\core\sys\windows\stacktrace.d" />
+      <File path="src\core\sys\windows\threadaux.d" />
+      <File path="src\core\sys\windows\windows.d" />
+     </Folder>
+    </Folder>
+    <File path="src\core\atomic.d" />
+    <File path="src\core\bitop.d" />
+    <File path="src\core\cpuid.d" />
+    <File path="src\core\demangle.d" />
+    <File path="src\core\exception.d" />
+    <File path="src\core\math.d" />
+    <File path="src\core\memory.d" />
+    <File path="src\core\runtime.d" />
+    <File path="src\core\simd.d" />
+    <File path="src\core\thread.d" />
+    <File path="src\core\thread.di" />
+    <File path="src\core\time.d" />
+    <File path="src\core\vararg.d" />
+   </Folder>
+   <Folder name="etc">
+    <Folder name="linux">
+     <File path="src\etc\linux\memoryerror.d" />
+    </Folder>
+   </Folder>
+   <Folder name="gc">
+    <File path="src\gc\bits.d" />
+    <File path="src\gc\gc.d" />
+    <File path="src\gc\os.d" />
+    <File path="src\gc\proxy.d" />
+    <File path="src\gc\stats.d" />
+   </Folder>
+   <Folder name="rt">
+    <Folder name="typeinfo">
+     <File path="src\rt\typeinfo\ti_AC.d" />
+     <File path="src\rt\typeinfo\ti_Acdouble.d" />
+     <File path="src\rt\typeinfo\ti_Acfloat.d" />
+     <File path="src\rt\typeinfo\ti_Acreal.d" />
+     <File path="src\rt\typeinfo\ti_Adouble.d" />
+     <File path="src\rt\typeinfo\ti_Afloat.d" />
+     <File path="src\rt\typeinfo\ti_Ag.d" />
+     <File path="src\rt\typeinfo\ti_Aint.d" />
+     <File path="src\rt\typeinfo\ti_Along.d" />
+     <File path="src\rt\typeinfo\ti_Areal.d" />
+     <File path="src\rt\typeinfo\ti_Ashort.d" />
+     <File path="src\rt\typeinfo\ti_byte.d" />
+     <File path="src\rt\typeinfo\ti_C.d" />
+     <File path="src\rt\typeinfo\ti_cdouble.d" />
+     <File path="src\rt\typeinfo\ti_cfloat.d" />
+     <File path="src\rt\typeinfo\ti_char.d" />
+     <File path="src\rt\typeinfo\ti_creal.d" />
+     <File path="src\rt\typeinfo\ti_dchar.d" />
+     <File path="src\rt\typeinfo\ti_delegate.d" />
+     <File path="src\rt\typeinfo\ti_double.d" />
+     <File path="src\rt\typeinfo\ti_float.d" />
+     <File path="src\rt\typeinfo\ti_idouble.d" />
+     <File path="src\rt\typeinfo\ti_ifloat.d" />
+     <File path="src\rt\typeinfo\ti_int.d" />
+     <File path="src\rt\typeinfo\ti_ireal.d" />
+     <File path="src\rt\typeinfo\ti_long.d" />
+     <File path="src\rt\typeinfo\ti_ptr.d" />
+     <File path="src\rt\typeinfo\ti_real.d" />
+     <File path="src\rt\typeinfo\ti_short.d" />
+     <File path="src\rt\typeinfo\ti_ubyte.d" />
+     <File path="src\rt\typeinfo\ti_uint.d" />
+     <File path="src\rt\typeinfo\ti_ulong.d" />
+     <File path="src\rt\typeinfo\ti_ushort.d" />
+     <File path="src\rt\typeinfo\ti_void.d" />
+     <File path="src\rt\typeinfo\ti_wchar.d" />
+    </Folder>
+    <Folder name="util">
+     <File path="src\rt\util\array.d" />
+     <File path="src\rt\util\container.d" />
+     <File path="src\rt\util\hash.d" />
+     <File path="src\rt\util\string.d" />
+     <File path="src\rt\util\utf.d" />
+    </Folder>
+    <File path="src\rt\aaA.d" />
+    <File path="src\rt\aApply.d" />
+    <File path="src\rt\aApplyR.d" />
+    <File path="src\rt\adi.d" />
+    <File path="src\rt\alloca.d" />
+    <File path="src\rt\arrayassign.d" />
+    <File path="src\rt\arraybyte.d" />
+    <File path="src\rt\arraycast.d" />
+    <File path="src\rt\arraycat.d" />
+    <File path="src\rt\arraydouble.d" />
+    <File path="src\rt\arrayfloat.d" />
+    <File path="src\rt\arrayint.d" />
+    <File path="src\rt\arrayreal.d" />
+    <File path="src\rt\arrayshort.d" />
+    <File path="src\rt\cast_.d" />
+    <File path="src\rt\cmath2.d" />
+    <File path="src\rt\cover.d" />
+    <File path="src\rt\critical_.d" />
+    <File path="src\rt\deh.d" />
+    <File path="src\rt\deh_win32.d" />
+    <File path="src\rt\deh_win64_posix.d" />
+    <File path="src\rt\dmain2.d" />
+    <File tool="None" path="src\rt\dylib_fixes.c" />
+    <File path="src\rt\invariant.d" />
+    <File path="src\rt\lifetime.d" />
+    <File path="src\rt\llmath.d" />
+    <File path="src\rt\memory.d" />
+    <File path="src\rt\memset.d" />
+    <File path="src\rt\minfo.d" />
+    <File path="src\rt\minit.asm" />
+    <File path="src\rt\monitor_.d" />
+    <File path="src\rt\obj.d" />
+    <File path="src\rt\qsort.d" />
+    <File path="src\rt\sections.d" />
+    <File path="src\rt\sections_freebsd.d" />
+    <File path="src\rt\sections_linux.d" />
+    <File path="src\rt\sections_osx.d" />
+    <File path="src\rt\sections_solaris.d" />
+    <File path="src\rt\sections_win32.d" />
+    <File path="src\rt\sections_win64.d" />
+    <File path="src\rt\switch_.d" />
+    <File path="src\rt\tlsgc.d" />
+    <File path="src\rt\trace.d" />
+   </Folder>
+   <File path="src\object.di" />
+   <File path="src\object_.d" />
+  </Folder>
+ </Folder>
+</DProject>
